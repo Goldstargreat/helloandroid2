@@ -33,9 +33,7 @@ public class MainActivity extends AppCompatActivity {
         rg = findViewById(R.id.rg);
 
         btn.setOnClickListener(btnListener);
-        rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-
-        });
+        rg.setOnCheckedChangeListener(rgListener);
     }
     View.OnClickListener btnListener = new View.OnClickListener(){
         @Override
