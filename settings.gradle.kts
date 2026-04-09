@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "helloandroid2"
 include(":app")
+include(":app")
